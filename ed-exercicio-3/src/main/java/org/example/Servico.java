@@ -20,11 +20,7 @@ public class Servico implements Vendavel{
 
     @Override
     public String toString() {
-        return "Servico{" +
-                "descricao='" + descricao + '\'' +
-                ", codigo=" + codigo +
-                ", qtdHoras=" + qtdHoras +
-                ", valorHora=" + valorHora +
-                '}';
+        return String.format("Descrição: %s, Código: %s, Quantidade Horas: " +
+                "%d, valorHora: %.2f",descricao ,codigo , qtdHoras, valorHora);
     }
 }

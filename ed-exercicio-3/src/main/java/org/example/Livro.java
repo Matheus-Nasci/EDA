@@ -14,7 +14,7 @@ public class Livro extends Produto{
 
     @Override
     public Double getValorVenda() {
-        return null;
+        return getPrecoCusto() + (getPrecoCusto() * 0.10);
     }
 
     public String getNome() {
@@ -43,10 +43,7 @@ public class Livro extends Produto{
 
     @Override
     public String toString() {
-        return "Livro{" +
-                "nome='" + nome + '\'' +
-                ", autor='" + autor + '\'' +
-                ", isbn='" + isbn + '\'' +
-                '}';
+        return String.format("Nome: %s, Autor: %s, ISBN: %s, Código: " +
+                "%d, Preço: %.2f",nome, autor ,isbn, super.getCodigo(), super.getPrecoCusto());
     }
 }
