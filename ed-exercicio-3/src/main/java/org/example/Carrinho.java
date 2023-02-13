@@ -29,5 +29,6 @@ public class Carrinho {
         for (Vendavel v: cart) {
             System.out.println(v);
         }
+        System.out.println("\n");
     }
 }

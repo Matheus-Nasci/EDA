@@ -27,6 +27,6 @@ public abstract class Produto implements Vendavel{
 
     @Override
     public String toString() {
-        return String.format("Código: %d, Preço: %.2f",codigo,precoCusto);
+        return String.format("Produto - Código: %d, Preço: %.2f",codigo,precoCusto);
     }
 }

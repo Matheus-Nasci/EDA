@@ -43,7 +43,7 @@ public class Livro extends Produto{
 
     @Override
     public String toString() {
-        return String.format("Nome: %s, Autor: %s, ISBN: %s, Código: " +
+        return String.format("Livro - Nome: %s, Autor: %s, ISBN: %s, Código: " +
                 "%d, Preço: %.2f",nome, autor ,isbn, super.getCodigo(), super.getPrecoCusto());
     }
 }

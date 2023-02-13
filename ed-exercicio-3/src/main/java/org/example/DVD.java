@@ -33,7 +33,7 @@ public class DVD extends Produto{
 
     @Override
     public String toString() {
-        return String.format("Nome: %s, Gravadora: %s, Código: " +
+        return String.format("DVD: Nome: %s, Gravadora: %s, Código: " +
                 "%d, Preço: %.2f",nome ,gravadora ,super.getCodigo(), super.getPrecoCusto());
     }
 }
