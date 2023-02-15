@@ -1,5 +1,6 @@
 package org.example;
 
+import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +22,8 @@ public class Carrinho {
         for (Vendavel v: cart) {
             total =+ v.getValorVenda();
         }
+
+        System.out.println(String.format("Total: R$ %.2f", total));
         return total;
     }
 

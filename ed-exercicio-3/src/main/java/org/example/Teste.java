@@ -85,7 +85,7 @@ public class Teste {
                             "2. Adicionar DVD\n" +
                             "3. Adicionar Serviço\n" +
                             "4. Exibir Itens do carrinho\n" +
-                            "4. Exibir total de vendas\n" +
+                            "5. Exibir total de vendas\n" +
                             "6. Fim\n");
 
             System.out.println("Qual opção você deseja?");
