@@ -23,7 +23,7 @@ public class Carrinho {
             total =+ v.getValorVenda();
         }
 
-        System.out.println(String.format("Total: R$ %.2f", total));
+        System.out.println(String.format("Total: R$ %.2f\n", total));
         return total;
     }
 
